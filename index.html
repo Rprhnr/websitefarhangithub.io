@@ -1,0 +1,386 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/w3.css">
+    <title>Tugas Akhir</title>
+</head>
+<div class="w3-container w3-black w3-center">
+        <img src="css/running-unscreen.gif" alt="" style="width:5%">
+        <img src="css/lari.gif" alt="" style="width:5%">
+</div>
+<body>
+    <div class="w3-container w3-text-white">
+        <div class="w3-center w3-black">
+            <button class="w3-bar-item w3-button w3-round-xlarge" onclick="bukaMenu('home')">🏡</button>
+            <button class="w3-bar-item w3-button w3-round-xlarge" onclick="bukaMenu('running')">RUNNING</button>
+            <button class="w3-bar-item w3-button w3-round-xlarge" onclick="bukaMenu('sepatu')">SEPATU</button>
+            <div class="w3-dropdown-hover">
+                <button class="w3-button w3-round-xxlarge">ATLET</button>
+                    <div class="w3-dropdown-content w3-opacity w3-bar-block w3-card-4">
+                    <button class="w3-bar-item w3-button w3-white" onclick="bukaMenu('100meter')">100 meter</button>
+                    <button class="w3-bar-item w3-button w3-gray" onclick="bukaMenu('200meter')">200 meter</button>
+                    <button class="w3-bar-item w3-button w3-white" onclick="bukaMenu('400meter')">400 meter</button>
+                    <button class="w3-bar-item w3-button w3-white" onclick="bukaMenu('1500meter')">1500 meter</button>
+                    <button class="w3-bar-item w3-button w3-gray" onclick="bukaMenu('5000meter')">5000 meter</button>
+                    <button class="w3-bar-item w3-button w3-white" onclick="bukaMenu('10000meter')">10000 meter</button>
+                    <button class="w3-bar-item w3-button w3-blue-gray" onclick="bukaMenu('marathon')">Marathon</button>
+                    <button class="w3-bar-item w3-button w3-blue-white" onclick="bukaMenu('halangrintang')">3000 Meter Halang Rintang</button>
+                    <button class="w3-bar-item w3-button w3-blue-gray" onclick="bukaMenu('100estafet')">4x100 Meter Estafet</button>
+                    <button class="w3-bar-item w3-button w3-blue-white" onclick="bukaMenu('400estafet')">4x400 Meter Estafet</button>
+                </div>
+            </div>
+            <button class="w3-bar-item w3-button w3-round-xlarge" onclick="bukaMenu('profile')">ABOUT ME</button>
+        </div> 
+    </div>
+    <div id="home" class="w3-row menu" style="display:block">
+        <div class="w3-center">
+                <img src="css/welcome4-unscreen.gif" alt="" style="width:40%">
+        </div>
+    </div>
+    <div id="running" class="w3-container menu w3-animate-top w3-text-white" style="display:none">
+        <div class="w3-row w3-animate-bottom w3-round-xxlarge" style="margin: 20px; background-color: rgba(255, 255, 255, 0.3);">
+            <div class="w3-container w3-half">
+                <img class="w3-round-xxlarge" src="css/lari.jpg" width="600">
+            </div>
+            <div class="w3-container w3-half">
+                    <center><h2>OLAHRAGA LARI</h2></center>
+                        <p>Olahraga lari adalah kegiatan fisik yang melibatkan gerakan tubuh untuk bergerak maju dengan cara berlari atau berlari-lari.
+                         Aktivitas ini umumnya dilakukan di tempat-tempat tertentu seperti lintasan lari, jalan, atau area terbuka lainnya.</p>
+            </div>
+        </div>
+        <div class="w3-row w3-animate-bottom w3-round-xxlarge" style="margin: 20px; background-color: rgba(255, 255, 255, 0.3);">
+            <div class="w3-container w3-half">
+                <center><h2>SEJARAH LARI DALAM OLIMPIADE</h2></center>
+                    <p>Ketika Komite Olimpiade Internasional (IOC) menggelar Olimpiade modern pertama pada 1896 di Yunani, ada sembilan cabang olahraga yang dipertandingkan yaitu atletik, 
+                        bersepeda, anggar, gimnastik, menembak, renang, tenis, angkat berat, dan gulat. Adapun, lari yang masuk cabang olahraga atletik pada Olimpiade 1896 meliputi lari 100 meter, 400 meter, 800 meter, 1500 meter, 110 meter gawang, dan marathon. Ketika pertama kali dilombakan pada Olimpiade modern, 
+                        lari hanya diikuti oleh atlet pria. Thomas Burke dari Amerika Serikat berhasil meraih medali emas pada nomor lari 100 meter dan 400 meter. Sementara itu, rekan senegara Burke yakni Thomas Curtis merebut medali emas nomor 110 meter lari gawang. Di nomor 800 meter dan 1500 meter, medali emas diarih oleh Edwin Flack. 
+                        Kemudian medali emas nomor marathon menjadi milik pelari Yunani, Spiridon Louis.</p>
+            </div>     
+            <div class="w3-container w3-half">     
+                <img class="w3-round-xxlarge" src="css/olimpiade.jpg" width="600">
+            </div>
+        </div>
+        <div class="w3-row w3-animate-bottom w3-round-xxlarge" style="margin: 20px; background-color: rgba(255, 255, 255, 0.3);">
+            <div class="w3-container w3-half">
+                <img class="w3-round-xxlarge" src="css/lari3.jpg" width="600">
+            </div>
+            <div class="w3-container w3-half">
+                <center><h2>MACAM MACAM LARI DALAM OLIMPIADE</h2></center>
+                    <p>Mengutip laman resmi Olimpiade, saat ini ada 13 nomor lari yang dilombakan. Berikut adalah macam-macam nomor lari di Olimpiade baik untuk atlet putra maupun putri.   
+                    </p><p>1. 100 meter </p><p>2. 200 meter </p><p>3. 400 meter </p><p>4. 1500 meter </p><p>5. 5000 meter </p><p>6. 10000 meter</p><p> 7. Marathon </p><p>8. 3000 meter halang rintang </p><p>9. 4x100 meter estafet</p><p>10.4x400 meter estafet</p>
+            </div>
+        </div>
+    </div> 
+    <div id="100meter" class="w3-container menu w3-animate-zoom " style="display:none">
+        <div class="w3-row w3-animate-bottom w3-round-xxlarge" style="margin: 20px; background-color: rgba(255, 255, 255, 0.3);">
+            <div class="w3-container w3-half">
+                <img class="w3-round-xxlarge" style="margin: 100px" src="css/Marcell_Jacobs_2021.jpg" width="400">
+            </div>
+            <center><h2>Lamont Marcell Jacobs Jr</h2></center>
+            <div class="w3-container w3-half">
+                <p>Lamont Marcell Jacobs Jr. (born 26 September 1994) is an Italian track and field sprinter and former long jumper. 
+                He is the 2020 Olympic 100 metres champion, the 2022 60 metres world champion, the 2022 European 100 metres champion, 
+                the winner of the 100m in the 2020 olympics and a member of the gold medal-winning 4 x 100 m relay team at the 2020 Olympics. 
+                He currently holds the 100 metres European record, the 60 metres European record, and is the first Italian to ever qualify for and win the men's 100 metres Olympic final.</p>
+            </div>
+        </div>
+        <div class="w3-row w3-animate-bottom w3-round-xxlarge" style="margin: 20px; background-color: rgba(255, 255, 255, 0.3);">
+            <div class="w3-container w3-half">
+                <center><h2>Elaine Sandra-Lee Thompson-Herah</h2></center>
+                <p>Elaine Sandra-Lee Thompson-Herah CD OD (née Thompson; born June 28, 1992)[3] is a Jamaican sprinter who competes in the 60 metres, 100 metres and 200 metres. Regarded as one of the greatest sprinters of all time, she is a five-time Olympic champion, the fastest woman alive in the 100 m, and the second fastest alive in the 200 m.
+                    Thompson-Herah is the first ever female sprinter, and the second sprinter after Usain Bolt, to win the "sprint double" at consecutive Olympics, capturing 100 m and 200 m gold at the 2016 Rio Olympics, and defending both titles at the 2020 Tokyo Olympics. A six-time Olympic medallist, she rose to prominence at the 2015 World Athletics Championships, winning silver in the 200 m and, at the time, becoming the fifth fastest woman in history over the distance. The next year at the Rio Olympics, she became the first woman since Florence Griffith-Joyner in 1988 to win 100 m and 200 m gold at the Olympics.
+                    After the Rio Olympics, Thompson-Herah was plagued by an Achilles tendon injury, which affected her performance at the 2017 World Athletics Championships and the 2019 World Athletics Championships. However, she returned to the top of athletics at the Tokyo Olympics, retaining her 100 m title in a new Olympic record of 10.61 s, and her 200 m title in a new personal best and national record of 21.53 s. After winning a third gold medal in the 4 x 100 m relay, she became the third sprinter after Griffith-Joyner and Bolt to complete an Olympic sprinting triple.
+                    At the 2021 Prefontaine Classic, Thompson-Herah set another 100 m personal best, Jamaican and Diamond League record of 10.54 s, becoming the first woman to break the 40 km/h barrier, then ran times of 10.64 s and 10.65 s. For her season she was voted Laureus Sportswoman of the Year, and World Athletics World Female Athlete of the Year. One of the most dominant sprinters in the world, she is the 100 m 2019 Pan American Games champion and a three-time Diamond League winner. In 2022, retired American sprinter Michael Johnson called Thompson-Herah and her compatriot Shelly-Ann Fraser-Pryce the two greatest female sprinters of all time.[4]</p>
+            </div>
+            <div class="w3-container w3-half">
+                <img class="w3-round-xxlarge" style="margin: 100px" src="css/Elaine_Thompson_Beijing_2015.jpg" width="400">
+            </div>
+        </div>
+    </div>
+    <div id="200meter" class="w3-container menu w3-animate-zoom w3-text-white " style="display:none">
+        <div class="w3-row w3-animate-bottom w3-round-xxlarge" style="margin: 20px; background-color: rgba(255, 255, 255, 0.3);">
+            <div class="w3-container w3-half">
+                <img class="w3-round-xxlarge" style="margin: 100px" src="css/Andre_De_Grasse_Rio_2016.jpg" width="400">
+            </div>
+            <center><h2>Andre De Grasse</h2></center>
+            <div class="w3-container w3-half">
+                <p>Andre De Grasse OOnt (born November 10, 1994) is a Canadian sprinter. A six-time Olympic medalist, De Grasse is the 2020 Olympic champion in the 200 m, and also won the silver in the 200 m in 2016. He won a second silver in the 4×100 relay in 2020.[5] He also has three Olympic bronze medals, placing third in the 100 m at both the 2016 and 2020 Games, and also in the 4×100 m relay in 2016.                    At the World Athletics Championships, De Grasse won a gold medal with the Canadian 4×100 relay team in 2022, as well as a bronze medal in the same event in 2015. He has three individual World medals, winning silver in the 200 m in 2019 in Doha, and two bronzes in the 100 m in 2015 and 2019. He was also the double Pan American champion and the NCAA champion in the 100 m and 200 m. He is the current Canadian record holder in the 200 m, running a 19.62 in Tokyo and making him the eighth fastest man in history in the 200 m.[6]
+                    De Grasse is the first Canadian sprinter to win three medals in a single Olympics, bettering the two medals in a single Olympics that were won by Canadian sprinters Donovan Bailey and Percy Williams. His gold medal finish at the 2020 Olympics was the first Canadian Olympic gold in track in 25 years and the first in the 200 m in 93 years. A consistent podium finisher, he won a medal in every Olympic and World Championship final he competed in from 2015 until the 2023 World Championships.</p>
+            </div>           
+        </div>
+        <div class="w3-row w3-animate-bottom w3-round-xxlarge" style="margin: 20px; background-color: rgba(255, 255, 255, 0.3);">
+            <div class="w3-container w3-half">
+                <center><h2>Elaine Sandra-Lee Thompson-Herah</h2></center>
+                <p>Elaine Sandra-Lee Thompson-Herah CD OD (née Thompson; born June 28, 1992)[3] is a Jamaican sprinter who competes in the 60 metres, 100 metres and 200 metres. Regarded as one of the greatest sprinters of all time, she is a five-time Olympic champion, the fastest woman alive in the 100 m, and the second fastest alive in the 200 m.
+                    Thompson-Herah is the first ever female sprinter, and the second sprinter after Usain Bolt, to win the "sprint double" at consecutive Olympics, capturing 100 m and 200 m gold at the 2016 Rio Olympics, and defending both titles at the 2020 Tokyo Olympics. A six-time Olympic medallist, she rose to prominence at the 2015 World Athletics Championships, winning silver in the 200 m and, at the time, becoming the fifth fastest woman in history over the distance. The next year at the Rio Olympics, she became the first woman since Florence Griffith-Joyner in 1988 to win 100 m and 200 m gold at the Olympics.
+                    After the Rio Olympics, Thompson-Herah was plagued by an Achilles tendon injury, which affected her performance at the 2017 World Athletics Championships and the 2019 World Athletics Championships. However, she returned to the top of athletics at the Tokyo Olympics, retaining her 100 m title in a new Olympic record of 10.61 s, and her 200 m title in a new personal best and national record of 21.53 s. After winning a third gold medal in the 4 x 100 m relay, she became the third sprinter after Griffith-Joyner and Bolt to complete an Olympic sprinting triple.
+                    At the 2021 Prefontaine Classic, Thompson-Herah set another 100 m personal best, Jamaican and Diamond League record of 10.54 s, becoming the first woman to break the 40 km/h barrier, then ran times of 10.64 s and 10.65 s. For her season she was voted Laureus Sportswoman of the Year, and World Athletics World Female Athlete of the Year. One of the most dominant sprinters in the world, she is the 100 m 2019 Pan American Games champion and a three-time Diamond League winner. In 2022, retired American sprinter Michael Johnson called Thompson-Herah and her compatriot Shelly-Ann Fraser-Pryce the two greatest female sprinters of all time.[4]</p>
+            </div>
+            <div class="w3-container w3-half">
+                <img class="w3-round-xxlarge" style="margin: 100px" src="css/Elaine_Thompson_Beijing_2015.jpg" width="400">
+            </div>
+        </div>
+    </div>
+    <div id="400meter" class="w3-container menu w3-animate-zoom w3-text-white" style="display:none">
+        <div class="w3-row w3-animate-bottom w3-round-xxlarge" style="margin: 20px; background-color: rgba(255, 255, 255, 0.3);">
+            <div class="w3-container w3-half">
+                <img class="w3-round-xxlarge" style="margin: 100px" src="css/Karsten_Warholm_at_Istanbul_2023.jpg" width="400">
+            </div>
+            <center><h2>karsten Warholm</h2></center>
+            <div class="w3-container w3-half">
+                <p>Karsten Warholm (Norwegian pronunciation: [ˈkɑʂtɛn ˈvɑrhɔ̂ɫm]; born 28 February 1996) is a Norwegian sprinter who competes in the 400 metres and 400 m hurdles. He is the 2020 Tokyo Olympic champion, a three-time world champion and the world record holder in the latter event.
+                    Warholm has won gold for the 400 m hurdles at the World Athletics Championships in 2017, 2019 and 2023, as well as the 2018 and 2022 European Athletics Championships. He is a two-time Diamond League 400 m hurdles champion. In 2021, he was voted World Athletics Male Athlete of the Year.
+                    In July 2021, Warholm broke the 29-year-old world record in 400 m hurdles. The following month at the 2020 Tokyo Olympics, he won the gold medal in the 400 m hurdles with a time of 45.94 seconds, breaking his own world record by over three-quarters of a second.</p>
+            </div>           
+        </div>
+        <div class="w3-row w3-animate-bottom w3-round-xxlarge" style="margin: 20px; background-color: rgba(255, 255, 255, 0.3);">
+            <div class="w3-container w3-half">
+                <center><h2>Sydney McLaughlin-Levrone</h2></center>
+                <p>Sydney McLaughlin-Levrone (née McLaughlin, born August 7, 1999) is an American hurdler and sprinter who competes in the 400 meters hurdles. She is the 2020 Tokyo Olympic champion with the Games record, and 2022 World champion with a world record time of 50.68 seconds. Setting four world records during 13 months, she was the first woman to break the 52-second (June 2021) and 51-second (July 2022) barriers in the 400 m hurdles.[7] She won the silver medal at the 2019 World Championships. At all three competitions, she also took gold as part of a women's 4 × 400 m relay team.
+                    As a 15-year-old, McLaughlin was the 2015 World youth champion. In 2016, she was the youngest athlete since 1980 to qualify for the U.S. Olympic track team, having placed third at the U.S. Olympic Trials, with the current world under-18 best of 54.15 seconds, then also the world U20 record.[8] She holds the current world U20 record of 53.60 seconds, having achieved a junior personal best of 52.75 s (not ratified), with both marks set in 2018. Only two other women also broke the 52-second barrier and McLaughlin-Levrone is the only one who broke the 51-second barrier, leaving her with nearly one second advantage on the world all-time list, the largest current difference between the world record and the next best performer in said track event.[9] She holds six out of the nine fastest times on this list. She was the 2019 Diamond League champion.       
+                    In 2022, McLaughlin-Levrone was voted World Athletics Female Athlete of the Year</p>
+            </div>
+            <div class="w3-container w3-half">
+                <img class="w3-round-xxlarge" style="margin: 100px" src="css/Sydney_McLaughlin_Oregon_2022.jpg" width="400">
+            </div>           
+        </div>
+    </div>
+    <div id="1500meter" class="w3-container menu w3-animate-zoom w3-text-white" style="display:none">
+        <div class="w3-row w3-animate-bottom w3-round-xxlarge" style="margin: 20px; background-color: rgba(255, 255, 255, 0.3);">
+            <div class="w3-container w3-half">
+                <img class="w3-round-xxlarge" style="margin: 100px" src="css/2018_European_Athletics_Championships_Day_5_(30)_(cropped).jpg" width="400">
+            </div>
+            <center><h2>Jakob Ingebrigtsen</h2></center>
+            <div class="w3-container w3-half">
+                <p>Jakob Ingebrigtsen (born 19 September 2000)[4] is a Norwegian middle- and long-distance runner. Ingebrigtsen is the current world record holder for the indoor 1500 metres and the 2000 metres, and holds the world best time over the two mile distance. Ingebrigtsen is a two-time World champion, winning gold medals in the 5000 metres in 2022 and 2023 and a four-time European champion, winning gold medals in the 1500 m and 5000 m in 2018 and 2022. He also won a gold medal in the 1500 m at the 2020 Tokyo Olympics, setting an Olympic and European record. In addition to the 1500 m, Ingebrigtsen holds European records in the mile and 5000 m, and is one of only three men (with Daniel Komen and Mohamed Katir) to run a sub-3:30 1500 m, sub-7:30 3000 m and a sub-12:50 5000 m.
+                    At age 16, Ingebrigtsen became the youngest man in history to run a mile in less than four minutes and broke the European Under-20 record in the 3000 metres steeplechase. As a junior, Ingebrigtsen won four consecutive gold medals at the European Cross Country Championships and won a gold medal in the 5000 m at the 2017 European U20 Championships.  
+                    His older brothers Henrik and Filip are also middle-distance runners who compete internationally. They were trained by their father Gjert Ingebrigtsen until 2022.</p>
+            </div>           
+        </div>
+        <div class="w3-row w3-animate-bottom w3-round-xxlarge" style="margin: 20px; background-color: rgba(255, 255, 255, 0.3);">
+            <div class="w3-container w3-half">
+                <center><h2>Faith Chepngetich Kipyegon</h2></center>
+                <p>Faith Chepngetich Kipyegon (born 10 January 1994)[3] is a Kenyan middle- and long-distance runner. Kipyegon is the current world record holder for the 1,500 metres and mile, both set in 2023, and the former world record holder for the 5,000 metres. Kipyegon won a gold medal each at the 2016 Rio de Janeiro Olympics and the 2020 Tokyo Olympics in the 1,500 m. She also won a gold medal in the 1,500 m at the 2017, 2022 and 2023 World Athletics Championships and in the 5,000 m at the 2023 World Athletics Championships.
+                    As a junior, Kipyegon won gold medals at the 2011 and 2013 World Cross Country Championships and in the 1500 m at the 2011 World Youth Championships and the 2012 World Junior Championships.
+                    Kipyegon was cited as one of the Top 100 most influential Africans by New African magazine in 2017</p>
+            </div>
+            <div class="w3-container w3-half">
+                <img class="w3-round-xxlarge" style="margin: 100px" src="css/Faith_Kipyegon_London_2017_(cropped2).jpg" width="400">
+            </div>           
+        </div>
+    </div>
+    <div id="5000meter" class="w3-container menu w3-animate-zoom w3-text-white" style="display:none">
+        <div class="w3-row w3-animate-bottom w3-round-xxlarge" style="margin: 20px; background-color: rgba(255, 255, 255, 0.3);">
+            <div class="w3-container w3-half">
+                <img class="w3-round-xxlarge" style="margin: 100px" src="css/Joshua_Cheptegei_at_Oregon_2022_(cropped).jpg" width="400">
+            </div>
+            <center><h2>Joshua Kiprui Cheptegei</h2></center>
+            <div class="w3-container w3-half">
+                <p>Joshua Kiprui Cheptegei (born 12 September 1996) is a Ugandan long-distance runner. Cheptegei is the current world record holder for the 5000 metres and the 10,000 metres, and holds the world best time over the 15 kilometres distance. Cheptegei is the reigning Olympic champion in the 5000 m and the reigning three-time World champion in the 10,000 m. Cheptegei also won a gold medal in the 5000 m and 10,000 m at the 2018 Commonwealth Games and at the 2019 IAAF World Cross Country Championships.
+                    Cheptegei is the tenth man in history to hold 5000 m and 10,000 m world records concurrently, both set in 2020.</p>
+            </div>           
+        </div>
+        <div class="w3-row w3-animate-bottom w3-round-xxlarge" style="margin: 20px; background-color: rgba(255, 255, 255, 0.3);">
+            <div class="w3-container w3-half">
+                <center><h2>Sifan Hassan</h2></center>
+                <p>Sifan Hassan (Oromo: Siifan Hassan; born 1 January 1993[7]) is an Ethiopian-born Dutch middle- and long-distance runner. She is most recognized for her versatility in running championship and world leading performances in widely disparate distances. She completed an unprecedented triple at the 2020 Tokyo Olympics, winning gold medals in both the 5,000 metres and 10,000 metres and a bronze medal for the 1,500 metres. Hassan is the only athlete in Olympic history to win medals across a middle-distance event and both long-distance races in a single Games. She is only the second woman to complete an Olympic distance double.[8][9]
+                    At the World Athletics Championships, Hassan took 1,500 m and 10,000 m titles in 2019, becoming the only athlete (male or female) in history to win both events at a single World Championships or Olympic Games.[10] She won a bronze at the 1500 m in 2015, and at the 5000 m in 2017 when she also finished fifth in the 1500 m. Hassan is a three-time World Indoor Championships medallist, winning gold at 1500 m in 2016 as well as silver at 3000 m and bronze for 1500 m in 2018. She earned six European medals (including two cross country titles), and one European indoor medal. She is also a three-time Diamond League winner, having secured the 1500 m/5000 m double in 2019. In her debut over the classic 26.2-mile distance, she won the 2023 London Marathon.
+                    Hassan has been the world record holder for the one hour run since 2020.[11] She held the world record for the one mile on the track from July 2019 to July 2023, when Faith Kipyegon overtook it.[12][13] She held a world record at 10,000 m for two days in June 2021.[14][15] She holds six European records (1500 m, 3000 m, 5000 m, 10,000 m, half marathon, marathon) and three other Dutch records.</p>
+            </div>
+            <div class="w3-container w3-half">
+                <img class="w3-round-xxlarge" style="margin: 100px" src="css/Hassan_cropped.jpg" width="400">
+            </div>           
+        </div>
+    </div>
+    <div id="10000meter" class="w3-container menu w3-animate-zoom w3-text-white" style="display:none">
+        <div class="w3-row w3-animate-bottom w3-round-xxlarge" style="margin: 20px; background-color: rgba(255, 255, 255, 0.3);">
+            <div class="w3-container w3-half">
+                <img class="w3-round-xxlarge" style="margin: 100px" src="css/Selemon_Barega_Oregon_2022.jpg" width="400">
+            </div>
+            <center><h2>Selemon Barega Shirtaga</h2></center>
+            <div class="w3-container w3-half">
+                <p>Selemon Barega Shirtaga (born 20 January 2000)[1] is an Ethiopian long-distance runner. He won the gold medal in the 10,000 metres at the 2020 Tokyo Olympics, silver for the 5,000 metres at the 2019 World Championships in Doha and bronze in the 10,000 metres at the 2023 World Championships in Budapest. Barega is a two-time 3,000 metres World Indoor Championship medallist, taking silver in 2018, and a gold in 2022.[2]
+                    He won gold medals at the 2016 World Under-20 Championships (5,000m), and 2017 World U18 Championships (3,000m). Barega represented Ethiopia in the 5,000m at the 2017 World Championships in London, finishing fifth in the final.</p>
+            </div>           
+        </div>
+        <div class="w3-row w3-animate-bottom w3-round-xxlarge" style="margin: 20px; background-color: rgba(255, 255, 255, 0.3);">
+            <div class="w3-container w3-half">
+                <center><h2>Letesenbet Gidey</h2></center>
+                <p>Letesenbet Gidey ( Tigrinya : ለተሰንበት ግደይ, lahir 20 Maret 1998) [3] adalah pelari jarak jauh Ethiopia yang memegang dua rekor dunia dan satu terbaik dunia. Di nomor 10.000 meter , ia merupakan peraih medali perunggu Olimpiade Tokyo 2020 , peraih medali perak Dunia 2019 , dan juara Dunia 2022 .
+                    Letesenbet memegang rekor dunia saat ini untuk lari 10.000 meter dan setengah maraton , yang ia buat masing-masing pada Juni 2021 dan Oktober 2021. Dia menjadi atlet kedua, setelah Ingrid Kristiansen dari 1989–1991, yang memegang dua rekor dunia secara bersamaan. [4] Rekornya di setengah maraton, menjadikan Letesenbet debutan pertama yang mencetak rekor dunia di acara tersebut, memecahkan rekor sebelumnya lebih dari satu menit. [5] [6] Dia juga menjadi yang terbaik dunia dalam lomba jalan raya sejauh 15 km , yang juga merupakan peningkatan lebih dari satu menit. Letesenbet menjadi wanita pertama yang memecahkan batasan 64 dan 63 menit pada setengah maraton dan 45 menit pada lari 15 km. Dia mencatat debut maraton wanita tercepat dalam sejarah di Valencia Marathon 2022 , menempatkannya di urutan ketujuh dalam daftar dunia sepanjang masa .
+                    Pada usia 17 tahun, Letesenbet memenangkan perlombaan junior di Kejuaraan Lintas Negara Dunia 2015 . Dia mempertahankan gelar pada tahun 2017 untuk meraih medali perunggu di balapan senior pada tahun 2019</p>
+            </div>
+            <div class="w3-container w3-half">
+                <img class="w3-round-xxlarge" style="margin: 100px" src="css/Letesenbet_Gidey_Oregon_2022_(cropped).jpg" width="400">
+            </div>           
+        </div>
+    </div>
+    <div id="marathon" class="w3-container menu w3-animate-zoom w3-text-white" style="display:none">
+        <div class="w3-row w3-animate-bottom w3-round-xxlarge" style="margin: 20px; background-color: rgba(255, 255, 255, 0.3);">
+            <div class="w3-container w3-half">
+                <img class="w3-round-xxlarge" style="margin: 100px" src="css/kipchoge.jpg" width="400">
+            </div>
+            <center><h2>Eliud Kipchoge</h2></center>
+            <div class="w3-container w3-half">
+                <p>Eliud Kipchoge membuktikan bahwa ia bisa mempertahankan medali emas nomor maraton di Olimpiade Tokyo 2020. Dua emas Olimpiade plus rekor dunia yang ia pegang saat ini membuatnya jadi pelari maraton terbaik sepanjang sejarah.
+                    Kipchoge sudah berusaha melepaskan diri dari kelompok besar saat maraton masih menyisakan 30km. Ia lalu jadi pelari pertama yang melintasi garis finis dengan catatan 2 jam 8 menit 38 detik.                  
+                    Kipchoge unggul 1 menit 20 detik atas Abdi Nageeye dari Belanda yang finis di posisi kedua.</p>
+            </div>           
+        </div>
+        <div class="w3-row w3-animate-bottom w3-round-xxlarge" style="margin: 20px; background-color: rgba(255, 255, 255, 0.3);">
+            <div class="w3-container w3-half">
+                <center><h2>Peres Jepchirchir</h2></center>
+                <p>Dengan jarak yang baru saja melewati batas 40 kilometer, juara setengah maraton dunia dua kali Peres Jepchirchir dari Kenya memenangkan Maraton Olimpiade putri dalam waktu 2:27:20 pada 7 Agustus.
+                    Pemegang rekor dunia Brigid Kosgei dari Kenya, orang terakhir yang bertahan bersama Jepchirchir, mempertahankan medali perak (2:27:36) di depan atlet Amerika Molly Seidel , yang memenangkan medali perunggu dengan waktu 2:27:46.</p>
+            </div>
+            <div class="w3-container w3-half">
+                <img class="w3-round-xxlarge" style="margin: 100px" src="css/kenyas-peres-jepchirchir-wins-the-womens-marathon-final-news-photo-1628299453.jpg" width="400">
+            </div>           
+        </div>
+    </div>
+    <div id="halangrintang" class="w3-container menu w3-animate-zoom w3-text-white" style="display:none">
+        <div class="w3-row w3-animate-bottom w3-round-xxlarge" style="margin: 20px; background-color: rgba(255, 255, 255, 0.3);">
+            <div class="w3-container w3-half">
+                <img class="w3-round-xxlarge" style="margin: 100px" src="css/Soufiane_el-Bakkali_(cropped)_Athletissima_2022.jpg" width="400">
+            </div>
+            <center><h2>Soufiane El Bakkali</h2></center>
+            <div class="w3-container w3-half">
+                <p>Soufiane El Bakkali (Arabic: سفيان البقالي; born 7 January 1996[5]) is a Moroccan male runner specializing in the 3000 metres steeplechase. He is the 2020 Tokyo Olympic champion, having previously finished fourth at the 2016 Rio Olympics. At the World Athletics Championships, El Bakkali won two gold medals, winning his first in 2022 and later in 2023, He won silver in 2017 and bronze in 2019. He also placed third at the 2019 African Games and second at the 2018 African Championships.
+                    El Bakkali was the 2022 Diamond League champion in his specialist event</p>
+            </div>           
+        </div>
+        <div class="w3-row w3-animate-bottom w3-round-xxlarge" style="margin: 20px; background-color: rgba(255, 255, 255, 0.3);">
+            <div class="w3-container w3-half">
+                <center><h2>Peres Jepchirchir</h2></center>
+                <p>Peruth Chemutai (born July 10, 1999) is a Ugandan steeplechase runner. She won the gold medal in the women's 3000 metres steeplechase at the 2020 Summer Olympics in Tokyo, becoming the first Ugandan woman ever to win an Olympic medal.[1][2]
+                    Chemutai is the Ugandan record holder for the 3000 m steeplechase and 5 kilometres road race</p>
+            </div>
+            <div class="w3-container w3-half">
+                <img class="w3-round-xxlarge" style="margin: 100px" src="css/330px-Bydgoszcz_2016_IAAF_World_U20_Championships,_3000m_steeplechase_women_final14_22-07-2016.jpg" width="400">
+            </div>           
+        </div>
+    </div>
+    <div id="100estafet" class="w3-container menu w3-animate-zoom w3-text-white" style="display:none">
+        <div class="w3-row w3-animate-bottom w3-round-xxlarge" style="margin: 20px; background-color: rgba(255, 255, 255, 0.3);">
+            <div class="w3-container w3-half">
+                <img class="w3-round-xxlarge" style="margin: 100px" src="css/Flag_of_Italy.svg.png" width="400">
+            </div>
+            <center><h2>ITALY</h2></center>
+            <div class="w3-container w3-half">
+                <p>Italy competed at the 2020 Summer Olympics in Tokyo. Originally scheduled to take place from 24 July to 9 August 2020, the Games were postponed to 23 July to 8 August 2021, because of the COVID-19 pandemic.[1] Italian athletes have appeared in every Summer Olympics edition of the modern era, with the disputed exception of the 1904 Summer Olympics in St. Louis where one Italian may have participated.[citation needed]
+                    The Italian National Olympic Committee will reward the gold medalists with €180,000, the silver medalists with €90,000 and the bronze medalists with €60,000.[2]           
+                    Italy competed in all sports except badminton, field hockey, football, handball and rugby sevens.           
+                    Italy has ended the 2020 Summer Olympics winning 10 gold, 10 silver and 20 bronze medals, setting a new record in number of medals won (36 medals was first reached in the Los Angeles Olympics of 1932, and then again in the Rome Olympics of 1960).[3] Moreover, for the first time the country has received at least one medal in each day</p>
+            </div>           
+        </div>
+        <div class="w3-row w3-animate-bottom w3-round-xxlarge" style="margin: 20px; background-color: rgba(255, 255, 255, 0.3);">
+            <div class="w3-container w3-half">
+                <center><h2>JAMAIKA</h2></center>
+                <p>Jamaica competed at the 2020 Summer Olympics in Tokyo. Originally scheduled to take place from 24 July to 9 August 2020, the Games were postponed to 23 July to 8 August 2021, because of the COVID-19 pandemic.[1] The country's participation marked its seventeenth Summer Olympic appearance as an independent state, although it has previously competed in four other editions as a British colony, and as part of the West Indies Federation.</p>
+            </div>
+            <div class="w3-container w3-half">
+                <img class="w3-round-xxlarge" style="margin: 100px" src="css/Flag_of_Jamaica.svg.png" width="400">
+            </div>           
+        </div>
+    </div>
+    <div id="400estafet" class="w3-container menu w3-animate-zoom w3-text-white" style="display:none">
+        <div class="w3-row w3-animate-bottom w3-round-xxlarge" style="margin: 20px; background-color: rgba(255, 255, 255, 0.3);">
+            <div class="w3-container w3-half">
+                <img class="w3-round-xxlarge" style="margin: 100px" src="css/330px-Flag_of_the_United_States.svg.png" width="400">
+            </div>
+            <center><h2>United States of America</h2></center>
+            <div class="w3-container w3-half">
+                <p>The United States of America (USA), represented by the United States Olympic & Paralympic Committee (USOPC), competed at the 2020 Summer Olympics in Tokyo. Originally scheduled to take place in the summer of 2020, the Games were postponed to July 23 to August 8, 2021, due to the COVID-19 pandemic.[1] U.S. athletes have appeared in every Summer Olympic Games of the modern era, with the exception of the 1980 Summer Olympics in Moscow, which the U.S. boycotted. The opening ceremony flag-bearers for the United States were baseball player Eddy Alvarez and basketball player Sue Bird.[2] Javelin thrower Kara Winger was the flag-bearer for the closing ceremony.[3] For the third consecutive time in the Summer Olympics, the United States was represented by more female than male athletes (285 men and 330 women).
+                    The country finished the Games with 113 medals, the most amongst all nations: 39 gold, 41 silver, and 33 bronze. These individual totals were each the highest of the Games, after a final-day tally of three gold medals (women's basketball, women's omnium, and women's volleyball) surpassed China's total of 38 golds.[4] This was the third consecutive Summer Olympics that the U.S. was the medal table leader. Overall, the medal total was slightly lower than five years prior in Rio de Janeiro, where the United States won 46 gold and 121 total medals.
+                    As Los Angeles will be the host city of the 2028 Summer Olympics, the United States, along with France, which is hosting the 2024 Summer Olympics in Paris, marched in the opening ceremony just before the host nation Japan</p>
+            </div>           
+        </div>
+        <div class="w3-row w3-animate-bottom w3-round-xxlarge" style="margin: 20px; background-color: rgba(255, 255, 255, 0.3);">
+            <div class="w3-container w3-half">
+                <center><h2>poland</h2></center>
+                <p>Poland competed at the 2020 Summer Olympics in Tokyo. Originally scheduled to take place from 24 July to 9 August 2020, the Games were postponed to 23 July to 8 August 2021, because of the COVID-19 pandemic.[1] Since the nation's official debut in 1924, Polish athletes have appeared in every edition of the Summer Olympic Games, with the exception of the 1984 Summer Olympics in Los Angeles, because of the Soviet boycott</p>
+            </div>
+            <div class="w3-container w3-half">
+                <img class="w3-round-xxlarge" style="margin: 100px" src="css/Flag_of_Poland.svg.png" width="400">
+            </div>           
+        </div>
+        <div class="w3-row w3-animate-bottom w3-round-xxlarge" style="margin: 20px; background-color: rgba(255, 255, 255, 0.3);">
+            <div class="w3-container w3-half">
+                <img class="w3-round-xxlarge" style="margin: 100px" src="css/330px-Flag_of_the_United_States.svg.png" width="400">
+            </div>
+            <center><h2>United States of America</h2></center>
+            <div class="w3-container w3-half">
+                <p>The United States of America (USA), represented by the United States Olympic & Paralympic Committee (USOPC), competed at the 2020 Summer Olympics in Tokyo. Originally scheduled to take place in the summer of 2020, the Games were postponed to July 23 to August 8, 2021, due to the COVID-19 pandemic.[1] U.S. athletes have appeared in every Summer Olympic Games of the modern era, with the exception of the 1980 Summer Olympics in Moscow, which the U.S. boycotted. The opening ceremony flag-bearers for the United States were baseball player Eddy Alvarez and basketball player Sue Bird.[2] Javelin thrower Kara Winger was the flag-bearer for the closing ceremony.[3] For the third consecutive time in the Summer Olympics, the United States was represented by more female than male athletes (285 men and 330 women).
+                    The country finished the Games with 113 medals, the most amongst all nations: 39 gold, 41 silver, and 33 bronze. These individual totals were each the highest of the Games, after a final-day tally of three gold medals (women's basketball, women's omnium, and women's volleyball) surpassed China's total of 38 golds.[4] This was the third consecutive Summer Olympics that the U.S. was the medal table leader. Overall, the medal total was slightly lower than five years prior in Rio de Janeiro, where the United States won 46 gold and 121 total medals.
+                    As Los Angeles will be the host city of the 2028 Summer Olympics, the United States, along with France, which is hosting the 2024 Summer Olympics in Paris, marched in the opening ceremony just before the host nation Japan</p>
+            </div>           
+        </div>
+    </div>
+    <div id="sepatu" class="w3-container menu w3-animate-bottom w3-text-white" style="display:none">
+        <center><h2>REKOMENDASI SEPATU</h2></center>
+        <div class="w3-row w3-animate-bottom w3-round-xxlarge" style="margin: 20px; background-color: rgba(255, 255, 255, 0.3);">
+            <center><h2>NIKE AIR ZOOM ALPHAFLY</h2></center>
+            <div class="w3-container w3-half">
+                <img class="w3-round-xxlarge" style="margin: 100px" src="css/nikeairzoomalphafly.jpg" width="400">
+            </div>    
+                <div class="w3-container w3-half">
+                    <img class="w3-round-xxlarge" style="margin: 100px" src="css/nike-unscreen.gif" width="400">
+            </div>        
+        </div>          
+        <div class="w3-row w3-animate-bottom w3-round-xxlarge" style="margin: 20px; background-color: rgba(255, 255, 255, 0.3);">
+            <center><h2>ADIDAS RUNFALCON</h2></center>
+            <div class="w3-container w3-half">
+                <img class="w3-round-xxlarge" style="margin: 100px" src="css/adidasrunfalcon.jpg" width="400">
+            </div>
+                <div class="w3-container w3-half">
+                    <img class="w3-round-xxlarge" style="margin: 100px" src="css/adidas-unscreen.gif" width="400">
+            </div>
+        </div>          
+        <div class="w3-row w3-animate-bottom w3-round-xxlarge" style="margin: 20px; background-color: rgba(255, 255, 255, 0.3);">
+            <center><h2>PUMA</h2></center>
+            <div class="w3-container w3-half">
+                <img class="w3-round-xxlarge" style="margin: 100px" src="css/puma_transport_modern_377030_13_-_puma_navypuma_blackwhite_1.jpg" width="400">
+            </div>    
+                <div class="w3-container w3-half"></div>
+                    <img class="w3-round-xxlarge" style="margin: 100px" src="css/puma-unscreen.gif" width="400">
+            </div>                  
+        <div class="w3-row w3-animate-bottom w3-round-xxlarge" style="margin: 20px; background-color: rgba(255, 255, 255, 0.3);">
+            <center><h2>NEW BALENCE</h2></center>
+            <div class="w3-container w3-half">
+                <img class="w3-round-xxlarge" style="margin: 100px" src="css/NBshoes.webp" width="400">
+            </div>    
+                <div class="w3-container w3-half"></div>
+                    <img class="w3-round-xxlarge" style="margin: 100px" src="css/NB-unscreen.gif" width="400">
+            </div>
+        </div>          
+    <div id="profile" class="w3-container menu w3-animate-zoom w3-center w3-text-black" style="display:none">
+        <div class="w3-row w3-animate-bottom w3-round-xxlarge" style="margin: 20px; background-color: rgba(248, 241, 241, 0.603);">  
+        <div class="w3-container w3-half" >
+        <h1> PROFILE </h1> 
+                    <p>RADEN FARHAN FAUZAN RAHAYU</p>
+                    </p>10123050</p>
+                    <p>TEKNIK INFORMATIKA</p>
+        </div>
+        <div class="w3-container w3-half" >
+            <img class="w3-round-xxlarge" style="margin: 100px" src="css/hehe-unscreen.gif" width="400">      
+    </div>
+</div>
+</div>
+    <script>
+        function bukaMenu(Menu) {
+            var i;
+            var x = document.getElementsByClassName("menu");
+            for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+            }
+            document.getElementById(Menu).style.display = "block";
+        }
+    </script>    
+    <footer class="w3-container w3-black">
+        <div class="w3-center">
+            <p>copyright © 2024 Raden Farhan Fauzan Rahayu</p>
+        </div>
+    </footer>
+</body>
+</html>
